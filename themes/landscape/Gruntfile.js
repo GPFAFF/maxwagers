@@ -32,7 +32,15 @@ module.exports = function(grunt){
       tmp: ['tmp'],
       fontawesome: ['source/css/fonts'],
       fancybox: ['source/fancybox']
-    }
+    },
+  /*  build: {
+      css: {
+        expand: true,
+        cwd: '....',
+        src: ['**'],
+        dest: 'source/css'
+      }
+    },*/
   });
 
   require('load-grunt-tasks')(grunt);
