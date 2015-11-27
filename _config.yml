@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: gpfaff.github.io/maxwagers
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -66,13 +66,13 @@ pagination_dir: page
 theme: landscape
 
 # Images
-post_asset_folder: true
+post_asset_folder: false
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 # You can use this:
 deploy:
   type: git
-  repo: gpfaff.github.io/maxwagers.git
+  repo: https://github.com/GPFAFF/gpfaff.github.io/maxwagers.git
   branch: master
   message: [message]
